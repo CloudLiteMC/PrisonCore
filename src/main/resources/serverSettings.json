@@ -1,0 +1,18 @@
+{
+  "spawn": {
+    "x": 0,
+    "y": 0,
+    "z": 1,
+    "world": "world",
+    "facing": "NORTH"
+  },
+
+  "warps": [],
+
+  "heal": {
+    "cooldown": 5
+  },
+  "feed": {
+    "cooldown": 5
+  }
+}

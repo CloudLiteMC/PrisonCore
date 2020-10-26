@@ -1,0 +1,31 @@
+{
+  "defaultRankCommandHandle": "lp user {player} parent set noob",
+  "ranks": [
+    {
+      "thisRankName": "Noob",
+      "nextRankName": "Dirty",
+      "rankupCost": 10.00,
+      "message": "&eYou&3 Have ranked up to &c&l&n{0}",
+      "broadcast": true,
+      "broadcastMessage": "&e&l&n{0}&3 Has achieved the &c&l&n{1}&3 Rank! &d&lHUZZAH!",
+      "commands": [
+        "give {player} diamond 1",
+        "lp user {player} promote prison"
+      ],
+      "material": "DIRT"
+    },
+    {
+      "thisRankName": "Dirty",
+      "nextRankName": "Clean",
+      "rankupCost": 15.00,
+      "message": "&eYou&3 Have ranked up to &c&l&n{0}",
+      "broadcast": true,
+      "broadcastMessage": "&e&l&n{0}&3 Has achieved the &c&l&n{1}&3 Rank! &d&lHUZZAH!",
+      "commands": [
+        "give {player} diamond 1",
+        "lp user {player} promote prison"
+      ],
+      "material": "COBBLESTONE"
+    }
+  ]
+}

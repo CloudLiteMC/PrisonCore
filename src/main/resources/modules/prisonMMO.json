@@ -1,0 +1,30 @@
+{
+  "player": {
+    "expIncrease": 10.00,
+    "expFromMiningLevel": 5.00
+  },
+
+  "mining": {
+    "expIncrease": 25,
+
+    "skills": {
+      "tokenThief": {
+        "unlockAfter": 50,
+        "tokenPerBlockPerLevel": 0.001
+      },
+      "doubleDrops": {
+        "unlockAfter": 100,
+        "doubleDropChancePerLevel": 0.10
+      },
+      "tripleDrops": {
+
+      }
+    },
+
+
+    "blocks": [
+      "STONE:.50"
+    ]
+
+  }
+}

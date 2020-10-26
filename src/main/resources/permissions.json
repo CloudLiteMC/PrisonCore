@@ -1,0 +1,66 @@
+{
+  "modules": {
+
+    "gamemode": {
+
+      "creativeSelf": "prisoncore.gamemode.creative.self",
+      "creativeOther": "prisoncore.gamemode.creative.other",
+      "survivalSelf": "prisoncore.gamemode.survival.self",
+      "survivalOther": "prisoncore.gamemode.survival.other",
+      "adventureSelf": "prisoncore.gamemode.adventure.self",
+      "adventureOther": "prisoncore.gamemode.adventure.other",
+      "spectatorSelf": "prisoncore.gamemode.spectator.self",
+      "spectatorOther": "prisoncore.gamemode.spectator.other"
+
+    },
+
+    "economy": {
+      "checkBalanceSelf": "prisoncore.economy.balance.self",
+      "checkBalanceOther": "prisoncore.economy.balance.other",
+      "payPlayer": "prisoncore.economy.pay",
+      "economyAdmin": "prisoncore.economy.admin"
+    },
+
+    "chat": {
+      "colorChat": "prisoncore.chat.color"
+    },
+
+    "prisonMMO": {
+      "displayMMOGui": "prisoncore.mmo.gui.display"
+    },
+
+    "shop": {
+
+      "autoSell": {
+        "useAutoSell": "prisoncore.autosell.use"
+      }
+
+    },
+
+    "heal": {
+      "bypassCooldown": "prisoncore.heal.cooldown.bypass",
+      "self": "prisoncore.heal.self",
+      "other": "prisoncore.heal.other"
+    },
+
+    "feed": {
+      "bypassCooldown": "prisoncore.feed.cooldown.bypass",
+      "self": "prisoncore.feed.self",
+      "other": "prisoncore.feed.other"
+    },
+
+    "rankup": {
+      "use": "prisoncore.rankup.use",
+      "listRanks": "prisoncore.rankup.list"
+    },
+
+    "superpickaxe": {
+      "dispose": "prisoncore.superpickaxe.dispose"
+    },
+
+    "clearInventory": {
+      "self": "prisoncore.clearinventory.self",
+      "other": "prisoncore.clearinventory.other"
+    }
+  }
+}

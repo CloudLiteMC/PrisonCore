@@ -1,0 +1,7 @@
+name: PrisonCore
+version: ${project.version}
+main: net.prisoncore.core.PrisonCore
+api-version: 1.13
+authors: [DaltonBurchard]
+description: Main prison core for CloudLiteMC
+website: play.cloudlite.net

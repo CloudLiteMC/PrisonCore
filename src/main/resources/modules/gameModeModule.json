@@ -1,0 +1,6 @@
+{
+  "message": {
+    "successChangeGamemodeSelf": "&aSuccessfully set own Game-Mode to &e&l{0}",
+    "successChangeGamemodeOther": "&aSuccessfully set &d&l{0}'s&a Game-Mode to &e&l{1}"
+  }
+}

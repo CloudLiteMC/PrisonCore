@@ -1,0 +1,91 @@
+{
+  "general": {
+
+    "prefix": "&3&lCLOUD-LITE &b&l>>",
+    "invalidUsage": "&cInvalid Usage! &e{0}",
+    "noPermission": "&cYou do not have permission to execute this command.",
+    "consoleSenderNotAllowed": "&cConsole is not allowed to execute this command in that format!",
+    "playerNotOnline": "&cThat player is not online!",
+    "invalidNumberProvided": "&cThe number you provided was invalid!"
+
+  },
+
+  "motd": {
+    "line1": "&3&l&m===&3&l[ &b&lCloudLite &c&lPRISONS &3&l]&3&l&m===&3&l[ &b&l&n1.8 &3&l&m- &b&l&n1.16&3&l ]&3&l&m==",
+    "line2": "&c&l&oMORE INFO TO BE ANNOUNCED &ediscord.cloudlite.net"
+  },
+
+  "economy": {
+    "balanceOtherPlayer": "&3Balance of &e{0}&3 is &2&l$&a&l {1}",
+    "balanceSelfPlayer": "&3Your balance &2&l$ &a&l{0}",
+    "payerMessage": "&3Successfully send &2&l$ &a&l{0} &3to &e{1}&3!",
+    "payerReceiver": "&2&l$ &a&l{0} &3Has been received from &e{1}&3!",
+
+    "adminMoneyReceiverGive": "&3&l+ &2&l$ &a&l{0}",
+    "adminMoneySenderGive": "&aSuccessfully added &2&l$ &a&l{0} &ato &e{1}&a balance!",
+
+    "adminMoneyReceiverTake": "&3&l- &2&l$&a&l {0}",
+    "adminMoneySenderTake": "&aSuccessfully took &2&l$ &a&l{0}&a from &e{1}",
+
+    "adminMoneyReceiverSet": "&3Your balance was set to &2&l$&a&l {0}",
+    "adminMoneySenderSet": "&aSuccessfully set &e{0}&a balance to &2&l$&a&l {1}"
+  },
+
+  "scoreboard": {
+    "title": "&3CLOUD&b&lLITE &c&lPRISON",
+    "lines": [
+      "&f ",
+      "&d&l&m=======&b&l&m=======&e&l&m=====",
+      "&e&l█",
+      "&a&l█&f         &2&l&o$ &a&l{balance}",
+      "&6&l█&f        &f&lTokens: &6&l&o{tokens}",
+      "&e&l█",
+      "&d&l&m=======&b&l&m=======&e&l&m====="
+    ]
+  },
+
+  "prisonMMO": {
+    "skillIncrease": "&3&l&m+&7&l {0} &6&l{1} Level(s)"
+  },
+
+  "chat": {
+    "format": "{rank} &6{player} &3&l>> &7{message}"
+  },
+
+  "autoSell": {
+    "toggle": "&3Your AutoSell has been &e{0}",
+    "noReportExists": "&cYou do not have any AutoSell reports currently!",
+    "defaultEnable": "&3Your AutoSell has been enabled by default!",
+    "autoSellNotification": "&3&lYou have made &2&l$ &a&l{0} &3&lfrom &e&lAutoSell"
+  },
+
+  "heal": {
+    "target": "&3You have been healed.",
+    "sender": "&3Successfully healed &e{0}",
+    "timer": "&cYou are still on Heal Cooldown! &3(&b{0}&7 Seconds&3)"
+  },
+
+  "feed": {
+    "target": "&3You have been fed!",
+    "sender": "&3Successfully healed &e{0}",
+    "timer": "&cYou are still on Feed Cooldown! &3(&b{0}&7 Seconds&3)"
+  },
+
+  "rankup": {
+    "maxRank": "&3You are already at the max rank! &7(&6&0&nCongrats!&7)",
+    "insufficientMoney": "&cYou do not have enough money to rankup! &7(&e/ranks&7)"
+  },
+
+  "gameMode": {
+
+    "targetGameModeChanged": "&aYour GameMode has been updated to &e{0} &aby &e{1}",
+    "senderGameModeConfirm": "&aYou have successfully updated &e{0}&a GameMode to &e{1}"
+
+  },
+
+  "clearInventory": {
+    "targetInventoryCleared": "&aYour inventory has been cleared!",
+    "clearInventoryRequestCancelled": "&aClear Inventory request has been cancelled!",
+    "senderClearInventoryConfirm": "&aYou have successfully cleared &e{0}'s&a inventory!"
+  }
+}

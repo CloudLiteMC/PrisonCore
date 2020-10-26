@@ -1,0 +1,65 @@
+{
+  "messages": {
+
+  },
+
+  "blocksExp": [
+    "STONE:1.00",
+    "COAL_ORE:1.25",
+    "GRANITE:1.50"
+  ],
+
+  "expSettings": {
+    "maxLevel": 500,
+    "expIncrease": 1000,
+    "rewards": []
+  },
+
+  "settings": {
+    "refreshRate": 7
+  },
+
+  "enchants": {
+
+    "efficiency": {
+      "maxLevel": 300,
+      "increasePerLevel": 25,
+      "baseCost": 10
+    },
+    "fortune": {
+      "maxLevel": 25000,
+      "increasePerLevel": 500,
+      "baseCost": 250
+    },
+    "nightVision": {
+      "maxLevel": 3,
+      "increasePerLevel": 75,
+      "baseCost": 25
+    },
+    "speed": {
+      "maxLevel": 3,
+      "increasePerLevel": 175,
+      "baseCost": 85
+    },
+    "jump": {
+      "maxLevel": 3,
+      "increasePerLevel": 115,
+      "baseCost": 65
+    },
+    "haste": {
+      "maxLevel": 5,
+      "increasePerLevel": 150,
+      "baseCost": 95
+    },
+    "tokenFinder": {
+      "maxLevel": 3000,
+      "increasePerLevel": 250,
+      "baseCost": 100,
+      "blocks": [
+        "STONE:0.015",
+        "COAL_ORE:0.025",
+        "GRANITE:0.035"
+      ]
+    }
+  }
+}

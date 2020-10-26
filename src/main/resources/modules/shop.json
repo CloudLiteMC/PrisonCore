@@ -1,0 +1,9 @@
+{
+  "prices": [
+    "COBBLESTONE:0.005",
+    "COAL:0.0075",
+    "GRANITE:0.010"
+  ],
+
+  "autoSellRefreshRate": 10
+}
