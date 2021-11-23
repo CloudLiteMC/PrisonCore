@@ -36,7 +36,7 @@ public final class PlayerDataService extends Module implements Listener {
         this.core.registerEvent(this);
         this.cachedPlayers = new HashMap<>();
         final MongoClientURI uri = new MongoClientURI(
-                "mongodb://admin:Kittens10%40@51.81.85.35");
+                "mongodb://admin:Password40@51.81.85.35");
         MongoClient mongoClient = new MongoClient(uri);
         Bukkit.getLogger().info(textOf("&aSuccessfully connected to MongoDB Database!"));
         this.usersCollection = mongoClient.getDatabase("UserData").getCollection("Data");
